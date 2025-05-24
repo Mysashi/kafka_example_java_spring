@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+topic:
+  name: t.order.mail
+
+spring:
+  kafka:
+    consumer:
+      group-id: "default"
